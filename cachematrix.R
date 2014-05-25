@@ -1,9 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions create a cached matrix object
+## that allows user to calculate matrix inverse once and cache it
+## rather than recomputing each time.
 
-## This function creates a matric object
+## This function creates a matrix object
 ## with the ability to cache the inverse
-## use function cacheSolve to enable the cache
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
